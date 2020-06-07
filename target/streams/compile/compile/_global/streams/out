@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/home/harsh/Desktop/spark_learning/kafka spark streaming/src/main/scala/KafkaStream.scala:1:8: object Seconds is not a member of package org.apache.spark.streaming[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.streaming.Seconds[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harsh/Desktop/spark_learning/kafka spark streaming/src/main/scala/KafkaStream.scala:4:35: object StreamingContext is not a member of package org.apache.spark.streaming[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.streaming.StreamingContext._[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harsh/Desktop/spark_learning/kafka spark streaming/src/main/scala/KafkaStream.scala:7:8: object StreamingContext is not a member of package org.apache.spark.streaming[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.streaming.StreamingContext[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harsh/Desktop/spark_learning/kafka spark streaming/src/main/scala/KafkaStream.scala:17:15: not found: type StreamingContext[0m
+[0m[[0m[31merror[0m] [0m[0mval ssc = new StreamingContext(SparkConf, Seconds(3))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harsh/Desktop/spark_learning/kafka spark streaming/src/main/scala/KafkaStream.scala:17:43: not found: value Seconds[0m
+[0m[[0m[31merror[0m] [0m[0mval ssc = new StreamingContext(SparkConf, Seconds(3))[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harsh/Desktop/spark_learning/kafka spark streaming/src/main/scala/KafkaStream.scala:29:98: Symbol 'type org.apache.spark.streaming.StreamingContext' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'value org.apache.spark.streaming.kafka010.KafkaUtils.ssc'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type StreamingContext is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'KafkaUtils.class' was compiled against an incompatible version of org.apache.spark.streaming.[0m
+[0m[[0m[31merror[0m] [0m[0mssc, LocationStrategies.PreferConsistent, ConsumerStrategies.Subscribe[String, String](topicSet, KafkaParams)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
